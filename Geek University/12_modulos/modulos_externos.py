@@ -9,7 +9,8 @@ colorama (https://pypi.org/project/colorama/) -> Usado para mudar a cor do texto
 from colorama import init
 init()
 
-from colorama import Fore, Back, Style
+from colorama import Fore, Back
 print(Fore.RED + 'Red')
 print(Fore.GREEN + 'Green')
 
+print(Back.YELLOW, Fore.BLACK + 'Back Yellow')

@@ -1,5 +1,4 @@
 """
-
 - Um parâmetro especial de funções;
 - É caracterizado por **;
 - Podem ser nomeados de qualquer forma, mas convencionalmente são nomeados com **kwargs;
