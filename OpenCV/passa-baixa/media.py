@@ -10,7 +10,7 @@ kernel = np.array([  # Imagem/Array manual de Auxilio para fazer o processamento
     [1/5, 1/5, 1/5, 1/5, 1/5],
     [1/5, 1/5, 1/5, 1/5, 1/5]
 ])
-dst = cv.filter2D(img, -1, kernel)  # Processamento e imagem de destino manualmente
+dst = cv.filter2D(img, -1, kernel)  # Processamento e imagem de dst manualmente
 imgs_concat = np.concatenate((img, dst), axis=1)  # Concatena as imagens para ficar uma ao lado da outra
 
 cv.imshow('resultado', imgs_concat)  # Apresenta as imagens

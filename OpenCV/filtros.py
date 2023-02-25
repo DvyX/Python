@@ -113,7 +113,7 @@ def apresentacao(img):
 def start():
     imagem = ler_imagem()
     escolha = menu()
-    imagem_filtro = filtro(imagem, escolha)
+    imagem_filtro = filtro(imagem, escolha) 
     resultado = contatenacao(imagem, escolha, imagem_filtro)
     apresentacao(resultado)
 
