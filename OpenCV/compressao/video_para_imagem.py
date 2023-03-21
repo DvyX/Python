@@ -8,7 +8,7 @@ success, frame = vidcap.read()
 count = 0
 
 while success:
-    cv.imwrite('Frames\\frame%d.png' % count, frame)
+    cv.imwrite('Frames\\frame%d.jpg' % count, frame)
     success, image = vidcap.read()
     print('Ler novo frame: ', success)
     count += 1
